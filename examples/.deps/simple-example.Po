@@ -1,0 +1,1134 @@
+simple-example.o: simple-example.c /usr/include/stdlib.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
+  /usr/include/sys/wait.h /usr/include/sys/_types/_pid_t.h \
+  /usr/include/sys/_types/_id_t.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/machine/_mcontext.h \
+  /usr/include/i386/_mcontext.h /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/include/sys/_types/_sigaltstack.h \
+  /usr/include/sys/_types/_ucontext.h \
+  /usr/include/sys/_types/_sigset_t.h /usr/include/sys/_types/_size_t.h \
+  /usr/include/sys/_types/_uid_t.h /usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/stdint.h \
+  /usr/include/stdint.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/_types/_uint8_t.h \
+  /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uintmax_t.h /usr/include/sys/_types/_timeval.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
+  /usr/include/sys/_types/_wchar_t.h /usr/include/sys/_types/_null.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/sys/_types/_dev_t.h /usr/include/sys/_types/_mode_t.h \
+  /usr/include/stdio.h /usr/include/sys/_types/_va_list.h \
+  /usr/include/sys/stdio.h /usr/include/sys/_types/_off_t.h \
+  /usr/include/sys/_types/_ssize_t.h /usr/include/secure/_stdio.h \
+  /usr/include/secure/_common.h /usr/include/string.h \
+  /usr/include/sys/_types/_rsize_t.h /usr/include/sys/_types/_errno_t.h \
+  /usr/include/strings.h /usr/include/secure/_string.h \
+  /usr/include/ctype.h /usr/include/runetype.h \
+  /usr/include/sys/_types/_wint_t.h ../agent/agent.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib-object.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gbinding.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/galloca.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtypes.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/lib/glib-2.0/include/glibconfig.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmacros.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/float.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gversionmacros.h \
+  /usr/include/time.h /usr/include/sys/_types/_clock_t.h \
+  /usr/include/sys/_types/_time_t.h /usr/include/sys/_types/_timespec.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/garray.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gasyncqueue.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gthread.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gatomic.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gerror.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/stdarg.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gquark.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gutils.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbacktrace.h \
+  /usr/include/signal.h /usr/include/sys/_pthread/_pthread_t.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbase64.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbitlock.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbookmarkfile.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbytes.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gcharset.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gchecksum.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gconvert.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdataset.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdate.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdatetime.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtimezone.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdir.h \
+  /usr/include/dirent.h /usr/include/sys/dirent.h \
+  /usr/include/sys/_types/_ino_t.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/genviron.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gfileutils.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ggettext.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghash.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/glist.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmem.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gnode.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghmac.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghook.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghostutils.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/giochannel.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmain.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gpoll.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gslist.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gstring.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gunicode.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gkeyfile.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmappedfile.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmarkup.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmessages.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/goption.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gpattern.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gprimes.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gqsort.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gqueue.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/grand.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gregex.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gscanner.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gsequence.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gshell.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gslice.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gspawn.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gstrfuncs.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gstringchunk.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtestutils.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gthreadpool.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtimer.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtrashstack.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtree.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gurifuncs.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gvarianttype.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gvariant.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gversion.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gallocator.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gcache.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gcompletion.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gmain.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/grel.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gthread.h \
+  /usr/include/sys/types.h /usr/include/sys/_types/_blkcnt_t.h \
+  /usr/include/sys/_types/_blksize_t.h /usr/include/sys/_types/_gid_t.h \
+  /usr/include/sys/_types/_in_addr_t.h \
+  /usr/include/sys/_types/_in_port_t.h \
+  /usr/include/sys/_types/_ino64_t.h /usr/include/sys/_types/_key_t.h \
+  /usr/include/sys/_types/_nlink_t.h \
+  /usr/include/sys/_types/_useconds_t.h \
+  /usr/include/sys/_types/_suseconds_t.h \
+  /usr/include/sys/_types/_fd_def.h \
+  /usr/include/sys/_types/_fd_setsize.h \
+  /usr/include/sys/_types/_fd_set.h /usr/include/sys/_types/_fd_clr.h \
+  /usr/include/sys/_types/_fd_zero.h /usr/include/sys/_types/_fd_isset.h \
+  /usr/include/sys/_types/_fd_copy.h \
+  /usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/include/sys/_types/_fsfilcnt_t.h /usr/include/pthread.h \
+  /usr/include/pthread/pthread_impl.h /usr/include/pthread/sched.h \
+  /usr/include/pthread/qos.h /usr/include/sys/qos.h \
+  /usr/include/sys/_types/_mach_port_t.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/glib-autocleanups.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gobject.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gtype.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gvalue.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gparam.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gclosure.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gsignal.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gmarshal.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gboxed.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/glib-types.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/genums.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gparamspecs.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gsourceclosure.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gtypemodule.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gtypeplugin.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gvaluearray.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gvaluetypes.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gobject-autocleanups.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gio.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/giotypes.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioenums.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gaction.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gactiongroup.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gactiongroupexporter.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gactionmap.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gappinfo.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gapplication.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gapplicationcommandline.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gasyncinitable.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginitable.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gasyncresult.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gbufferedinputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilterinputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gbufferedoutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilteroutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/goutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gbytesicon.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcancellable.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcharsetconverter.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gconverter.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcontenttype.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gconverterinputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gconverteroutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcredentials.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/_types/_posix_vdisable.h \
+  /usr/include/sys/_types/_seek_set.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h /usr/include/sys/_types/_uuid_t.h \
+  /usr/include/gethostuuid.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdatainputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdataoutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusaddress.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusauthobserver.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbuserror.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusintrospection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusmessage.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusmethodinvocation.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusnameowning.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusnamewatching.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusproxy.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusserver.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusutils.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdrive.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gemblemedicon.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gicon.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gemblem.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileattribute.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileenumerator.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfile.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileicon.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileinfo.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileinputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileiostream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/giostream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioerror.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilemonitor.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilenamecompleter.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileoutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginetaddress.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginetaddressmask.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginetsocketaddress.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketaddress.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioenumtypes.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/giomodule.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gmodule.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioscheduler.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gloadableicon.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmemoryinputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmemoryoutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmount.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmountoperation.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnativevolumemonitor.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gvolumemonitor.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworkaddress.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworkmonitor.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworkservice.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpermission.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpollableinputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpollableoutputstream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpollableutils.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpropertyaction.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxy.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxyaddress.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxyaddressenumerator.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketaddressenumerator.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxyresolver.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gresolver.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gresource.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gseekable.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsettingsschema.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsettings.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleaction.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleactiongroup.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleasyncresult.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleiostream.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimplepermission.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketclient.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketconnectable.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocket.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketcontrolmessage.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketlistener.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketservice.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsrvtarget.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleproxyresolver.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtask.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsubprocess.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsubprocesslauncher.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtcpconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtcpwrapperconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtestdbus.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gthemedicon.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gthreadedsocketservice.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsbackend.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlscertificate.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsclientconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsdatabase.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsfiledatabase.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsinteraction.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsserverconnection.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlspassword.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gvfs.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gvolume.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gzlibcompressor.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gzlibdecompressor.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusinterface.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusinterfaceskeleton.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobject.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectskeleton.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectproxy.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectmanager.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectmanagerclient.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectmanagerserver.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusactiongroup.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gremoteactiongroup.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmenumodel.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmenu.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmenuexporter.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusmenumodel.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnotification.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/glistmodel.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gliststore.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gio-autocleanups.h \
+  ../agent/address.h /usr/include/sys/socket.h \
+  /usr/include/machine/_param.h /usr/include/i386/_param.h \
+  /usr/include/sys/_types/_sa_family_t.h \
+  /usr/include/sys/_types/_socklen_t.h \
+  /usr/include/sys/_types/_iovec_t.h /usr/include/netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/arpa/inet.h \
+  ../agent/candidate.h ../agent/debug.h \
+  /opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworking.h \
+  /usr/include/netdb.h /usr/include/netinet/tcp.h /usr/include/resolv.h \
+  /usr/include/sys/param.h /usr/include/machine/param.h \
+  /usr/include/i386/param.h /usr/include/nameser.h /usr/include/sys/un.h \
+  /usr/include/net/if.h /usr/include/net/if_var.h \
+  /usr/include/sys/time.h /usr/include/sys/queue.h \
+  /usr/include/sys/_types/_timeval32.h \
+  /usr/include/arpa/nameser_compat.h
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/sys/_pthread/_pthread_types.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/_types/_pid_t.h:
+
+/usr/include/sys/_types/_id_t.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/machine/_mcontext.h:
+
+/usr/include/i386/_mcontext.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/_pthread/_pthread_attr_t.h:
+
+/usr/include/sys/_types/_sigaltstack.h:
+
+/usr/include/sys/_types/_ucontext.h:
+
+/usr/include/sys/_types/_sigset_t.h:
+
+/usr/include/sys/_types/_size_t.h:
+
+/usr/include/sys/_types/_uid_t.h:
+
+/usr/include/sys/resource.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
+
+/usr/include/_types/_uint8_t.h:
+
+/usr/include/_types/_uint16_t.h:
+
+/usr/include/_types/_uint32_t.h:
+
+/usr/include/_types/_uint64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
+
+/usr/include/_types/_intmax_t.h:
+
+/usr/include/_types/_uintmax_t.h:
+
+/usr/include/sys/_types/_timeval.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/sys/_types/_ct_rune_t.h:
+
+/usr/include/sys/_types/_rune_t.h:
+
+/usr/include/sys/_types/_wchar_t.h:
+
+/usr/include/sys/_types/_null.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/sys/_types/_dev_t.h:
+
+/usr/include/sys/_types/_mode_t.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sys/_types/_va_list.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/sys/_types/_off_t.h:
+
+/usr/include/sys/_types/_ssize_t.h:
+
+/usr/include/secure/_stdio.h:
+
+/usr/include/secure/_common.h:
+
+/usr/include/string.h:
+
+/usr/include/sys/_types/_rsize_t.h:
+
+/usr/include/sys/_types/_errno_t.h:
+
+/usr/include/strings.h:
+
+/usr/include/secure/_string.h:
+
+/usr/include/ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/sys/_types/_wint_t.h:
+
+../agent/agent.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib-object.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gbinding.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/galloca.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtypes.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/lib/glib-2.0/include/glibconfig.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmacros.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/stddef.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/__stddef_max_align_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/float.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gversionmacros.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/_types/_clock_t.h:
+
+/usr/include/sys/_types/_time_t.h:
+
+/usr/include/sys/_types/_timespec.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/garray.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gasyncqueue.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gthread.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gatomic.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gerror.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include/stdarg.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gquark.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gutils.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbacktrace.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/_pthread/_pthread_t.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbase64.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbitlock.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbookmarkfile.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gbytes.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gcharset.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gchecksum.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gconvert.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdataset.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdate.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdatetime.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtimezone.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gdir.h:
+
+/usr/include/dirent.h:
+
+/usr/include/sys/dirent.h:
+
+/usr/include/sys/_types/_ino_t.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/genviron.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gfileutils.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ggettext.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghash.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/glist.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmem.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gnode.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghmac.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghook.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/ghostutils.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/giochannel.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmain.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gpoll.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gslist.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gstring.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gunicode.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gkeyfile.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmappedfile.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmarkup.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gmessages.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/goption.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gpattern.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gprimes.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gqsort.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gqueue.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/grand.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gregex.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gscanner.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gsequence.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gshell.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gslice.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gspawn.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gstrfuncs.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gstringchunk.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtestutils.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gthreadpool.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtimer.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtrashstack.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gtree.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gurifuncs.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gvarianttype.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gvariant.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/gversion.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gallocator.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gcache.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gcompletion.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gmain.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/grel.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/deprecated/gthread.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/_types/_blkcnt_t.h:
+
+/usr/include/sys/_types/_blksize_t.h:
+
+/usr/include/sys/_types/_gid_t.h:
+
+/usr/include/sys/_types/_in_addr_t.h:
+
+/usr/include/sys/_types/_in_port_t.h:
+
+/usr/include/sys/_types/_ino64_t.h:
+
+/usr/include/sys/_types/_key_t.h:
+
+/usr/include/sys/_types/_nlink_t.h:
+
+/usr/include/sys/_types/_useconds_t.h:
+
+/usr/include/sys/_types/_suseconds_t.h:
+
+/usr/include/sys/_types/_fd_def.h:
+
+/usr/include/sys/_types/_fd_setsize.h:
+
+/usr/include/sys/_types/_fd_set.h:
+
+/usr/include/sys/_types/_fd_clr.h:
+
+/usr/include/sys/_types/_fd_zero.h:
+
+/usr/include/sys/_types/_fd_isset.h:
+
+/usr/include/sys/_types/_fd_copy.h:
+
+/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_once_t.h:
+
+/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/usr/include/sys/_types/_fsblkcnt_t.h:
+
+/usr/include/sys/_types/_fsfilcnt_t.h:
+
+/usr/include/pthread.h:
+
+/usr/include/pthread/pthread_impl.h:
+
+/usr/include/pthread/sched.h:
+
+/usr/include/pthread/qos.h:
+
+/usr/include/sys/qos.h:
+
+/usr/include/sys/_types/_mach_port_t.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/glib/glib-autocleanups.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gobject.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gtype.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gvalue.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gparam.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gclosure.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gsignal.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gmarshal.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gboxed.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/glib-types.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/genums.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gparamspecs.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gsourceclosure.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gtypemodule.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gtypeplugin.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gvaluearray.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gvaluetypes.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gobject/gobject-autocleanups.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gio.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/giotypes.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioenums.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gaction.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gactiongroup.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gactiongroupexporter.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gactionmap.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gappinfo.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gapplication.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gapplicationcommandline.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gasyncinitable.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginitable.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gasyncresult.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gbufferedinputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilterinputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gbufferedoutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilteroutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/goutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gbytesicon.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcancellable.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcharsetconverter.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gconverter.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcontenttype.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gconverterinputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gconverteroutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gcredentials.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/_types/_posix_vdisable.h:
+
+/usr/include/sys/_types/_seek_set.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_select.h:
+
+/usr/include/sys/_types/_uuid_t.h:
+
+/usr/include/gethostuuid.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdatainputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdataoutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusaddress.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusauthobserver.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbuserror.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusintrospection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusmessage.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusmethodinvocation.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusnameowning.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusnamewatching.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusproxy.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusserver.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusutils.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdrive.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gemblemedicon.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gicon.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gemblem.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileattribute.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileenumerator.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfile.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileicon.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileinfo.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileinputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileiostream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/giostream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioerror.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilemonitor.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfilenamecompleter.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gfileoutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginetaddress.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginetaddressmask.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/ginetsocketaddress.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketaddress.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioenumtypes.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/giomodule.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gmodule.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gioscheduler.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gloadableicon.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmemoryinputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmemoryoutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmount.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmountoperation.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnativevolumemonitor.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gvolumemonitor.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworkaddress.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworkmonitor.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworkservice.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpermission.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpollableinputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpollableoutputstream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpollableutils.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gpropertyaction.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxy.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxyaddress.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxyaddressenumerator.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketaddressenumerator.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gproxyresolver.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gresolver.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gresource.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gseekable.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsettingsschema.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsettings.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleaction.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleactiongroup.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleasyncresult.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleiostream.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimplepermission.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketclient.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketconnectable.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocket.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketcontrolmessage.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketlistener.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsocketservice.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsrvtarget.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsimpleproxyresolver.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtask.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsubprocess.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gsubprocesslauncher.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtcpconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtcpwrapperconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtestdbus.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gthemedicon.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gthreadedsocketservice.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsbackend.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlscertificate.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsclientconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsdatabase.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsfiledatabase.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsinteraction.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlsserverconnection.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gtlspassword.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gvfs.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gvolume.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gzlibcompressor.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gzlibdecompressor.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusinterface.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusinterfaceskeleton.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobject.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectskeleton.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectproxy.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectmanager.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectmanagerclient.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusobjectmanagerserver.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusactiongroup.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gremoteactiongroup.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmenumodel.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmenu.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gmenuexporter.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gdbusmenumodel.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnotification.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/glistmodel.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gliststore.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gio-autocleanups.h:
+
+../agent/address.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/machine/_param.h:
+
+/usr/include/i386/_param.h:
+
+/usr/include/sys/_types/_sa_family_t.h:
+
+/usr/include/sys/_types/_socklen_t.h:
+
+/usr/include/sys/_types/_iovec_t.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/netinet6/in6.h:
+
+/usr/include/arpa/inet.h:
+
+../agent/candidate.h:
+
+../agent/debug.h:
+
+/opt/boxen/homebrew/Cellar/glib/2.46.2/include/glib-2.0/gio/gnetworking.h:
+
+/usr/include/netdb.h:
+
+/usr/include/netinet/tcp.h:
+
+/usr/include/resolv.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/machine/param.h:
+
+/usr/include/i386/param.h:
+
+/usr/include/nameser.h:
+
+/usr/include/sys/un.h:
+
+/usr/include/net/if.h:
+
+/usr/include/net/if_var.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/queue.h:
+
+/usr/include/sys/_types/_timeval32.h:
+
+/usr/include/arpa/nameser_compat.h:
